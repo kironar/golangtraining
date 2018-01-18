@@ -10,7 +10,7 @@ func wrapper() func() int {
 	}
 }
 
-func main()  {
+func main() {
 	increment := wrapper()
 	fmt.Println(increment())
 	fmt.Println(increment())

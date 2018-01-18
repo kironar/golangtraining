@@ -4,13 +4,13 @@ import "fmt"
 
 var x int = 42
 
-func main()  {
+func main() {
 	fmt.Println(x)
 	foo()
 	y := 12
 	fmt.Println(y)
 }
 
-func foo()  {
+func foo() {
 	fmt.Println(x)
 }
